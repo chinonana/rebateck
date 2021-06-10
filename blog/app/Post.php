@@ -2,10 +2,10 @@
 
 namespace App;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class UserController extends Controller
+class Post extends Model
 {
    use SoftDeletes;
    
